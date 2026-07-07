@@ -1,0 +1,10 @@
+CREATE SCHEMA IF NOT EXISTS ormlearn;
+
+USE ormlearn;
+
+CREATE TABLE employee (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    designation VARCHAR(100),
+    salary DOUBLE
+);
